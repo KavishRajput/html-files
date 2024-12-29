@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <marquee behavior="" direction="Left">
+                Registration Form
+            </marquee>
+        </legend>
+        <Form oninput="result.value=Age.value">
+            <label for="Name">Student Name</label>
+            <br>
+            <input type="text" name="Name" id="Name">
+            
+            <br>
+            <br>
+
+            <label for="Mob">Mobile Number</label>
+            <br>
+            <input type="tel" name="Mob" id="Mob">
+
+            <br>
+            <br>
+
+            <label for="DOB">D.O.B</label>
+            <br>
+            <input type="date" name="DOB" id="DOB">
+
+            <br>
+            <br>
+
+            <label for="Gender">Gender</label>
+            <br>
+            Male<input type="radio" name="Gender" id="Gender">
+            <br>
+            Female<input type="radio" name="Gender" id="Gender">
+
+            <br>
+            <br>
+
+            <label for="Favirate Color">Favirate Color</label>
+            <br>
+            <input type="color" name="" id="">
+
+            <br>
+            <br>
+
+            <label for="Lang_known">Language Known</label>
+            <br>
+            English<input type="checkbox" name="Lang_known" id="Lang_known">
+            <br>
+            Hindi<input type="checkbox" name="Lang_known" id="Lang_known">
+            <br>
+            Punjabi<input type="checkbox" name="Lang_known" id="Lang_known">
+
+            <br>
+            <br>
+
+            <label for="photo">Profile Photo</label>
+            <br>
+            <input type="file" name="Photo" id="photo">
+
+            <br>
+            <br>
+
+            <label for="password">Password</label>
+            <br>
+            <input type="password" name="password" id="password">
+
+            <br>
+            <br>
+
+            <label for="blood">Blood Group</label>
+            <select name="blood" id="blood">
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="A-">A-</option>
+                <option value="A-">A-</option>
+                <option value="O-">O-</option>
+                <option value="O-">O-</option>
+                <option value="AB-">AB-</option>
+                <option value="AB-">AB-</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="Age">Age(Range)</label>
+            <br>
+            <input type="range" name="Age" id="Age" min="1" max="110" value="20">
+            <br>
+            You Age Is <output  name="result" for="Age">20</output>Years.
+
+            <br>
+            <br>
+
+            <label for="email">E mail</label>
+            <br>
+            <input type="email" name="email" id="email">
+
+            <br>
+            <br>
+            <h3>Insert Image Using Input Tag</h3>
+            <input type="image" src="./HTML.ico">
+
+            <br>
+            <br>
+            <label for="search">Search</label>
+            <br>
+            <input type="search" name="search" id="search">
+
+            <br>
+            <br>
+
+            <label for="url">Url</label>
+            <br>
+            <input type="url" name="url" id="url">
+
+            <br>
+            <br>
+
+            <h3>localtime</h3>
+            <br>
+            <input type="datetime-local" name="localtime" id="localtime">
+
+            <br>
+            <br>
+
+            <label for="comment">Comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="50" rows="10"></textarea>
+
+            <br>
+            <br>
+
+            <h3>Date And Time</h3>
+            <input type="date" name="" id="">
+            <input type="time" name="" id="">
+            <input type="datetime" name="" id="">
+            <input type="datetime-local" name="" id="">
+            <input type="week" name="" id="">
+            <input type="month" name="" id="">
+
+            <br>
+            <br>
+
+            <h3>Disable </h3>
+            <input type="text" name="" id="" disabled>
+
+            <br>
+            <br>
+
+            <h3>Required </h3>
+            <input type="text" name="" id="" required>
+
+            <br>
+            <br>
+
+            <h3>meter</h3>
+            <label for="Storage">Storage</label>
+            <meter value="30" min="0" max="100"></meter>
+
+            <br>
+            <br>
+
+            <h3>Progress</h3>
+            <label for="Downloading">Downloading</label>
+            <progress value="30" min="0" max="100"></progress>
+
+            <br>
+            <br>
+
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <input type="button" value="save">
+
+
+        </Form>
+    </fieldset>
+</body>
+</html>
